@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+
+}
+.login-form{
+    margin: auto;
+    padding-left: 50px;
+
+    background-color: aqua;
+}
+button {
+    color:rgb(238, 5, 5);
+     font-size: 20px;
+     text-overflow: clip;
+     text-align: center;
+     text-shadow: black;
+ }
+
+ .input-field email{
+    text-overflow: unset;
+    color: blue;
+ }
+ .input-field email:hover{
+    color:black;
+    background-color: rgb(19, 206, 97);
+    transition: .9s all ease-in-out;
+ }
+
+ .action button:hover{
+    color:black;
+    background-color: rgb(19, 206, 97);
+    transition: .9s all ease-in-out;
+ }
